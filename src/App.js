@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import StartScreen from "./Components/StartScreen";
 import Question from "./Components/Question";
@@ -124,14 +124,3 @@ function App() {
 }
 
 export default App;
-
-// function selectOption(option, question) {
-//   setQuestions((prevQuestions) => {
-//     return prevQuestions.map((prevQuestion) => {
-//       if (prevQuestion.question === option) {
-//         prevQuestion.selected = question;
-//       }
-//       return prevQuestion;
-//     });
-//   });
-// }
